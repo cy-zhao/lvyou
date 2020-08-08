@@ -1,0 +1,176 @@
+footer{
+	height:460px ;
+	background-color: dimgray;
+}
+
+.low_header {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.low {
+	height: 360px;
+	padding-top: 40px;
+}
+
+.low_left {
+	float: left;
+}
+
+.a_low img {
+	margin: auto;
+	float: left;
+}
+
+.big_low {
+	padding-left: 24px;
+	width: 130px;
+	float: left;
+	color: snow;
+}
+
+.b_low p {
+	font-size: 12px;
+	margin-top: 80px;
+}
+
+.c_low p {
+	font-size: 12px;
+	margin-top: 35px;
+}
+
+.bigLow {
+	padding-left: 44px;
+	width: 130px;
+	float: left;
+}
+
+.d_low {
+	color: white;
+}
+
+.e_low {
+	padding-top: 30px;
+	color: snow;
+}
+
+.f_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.ALow {
+	padding-left: 44px;
+	width: 200px;
+	float: left;
+}
+
+.g_low {
+	color: white;
+	
+}
+
+.h_low {
+	padding-top: 30px;
+	color: snow;
+}
+
+.i_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.j_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.k_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.l_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.m_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.n_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.o_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.CLow {
+	padding-left: 44px;
+	width: 200px;
+	float: left;
+}
+
+.A_low {
+	color: white;
+}
+
+.B_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.C_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.D_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.E_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.F_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.DLow {
+	padding-left: 44px;
+	width: 130px;
+	float: left;
+}
+
+.G_low {
+	color: white;
+}
+
+.H_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.I_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.J_low {
+	padding-top: 10px;
+	color: snow;
+}
+
+.over {
+    text-align: center;
+	color: white;
+}

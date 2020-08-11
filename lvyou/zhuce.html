@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/remstyle.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css"/>
+	</head>
+	<body>
+		<div class="topbox">
+			<div class="topbox-con">
+					<a href="dl.html"><</a>
+				<p>注册</p>
+			</div>
+		</div>
+		<div class="zcbox">
+			<ul>
+				<li>
+					<span class="contry">国家/地区</span>
+					<span class="contry">中国大陆&nbsp;86</span>
+				</li>
+				<li>
+					<span class="num">手机号</span>
+					<input type="number" placeholder="常用手机号码" class="numint"/>
+				</li>
+				<li>
+					<span class="yzm">验证码</span>
+					<input type="number" placeholder="短信验证码" class="yzmint"/>
+					<button class="btn">获取验证码</button>
+				</li>
+				<li>
+					<span class="pwd">密码</span>
+					<input type="password" placeholder="登陆密码" class="pwdint"/>
+					<img src="img/yanjing.png" class="yj"/>
+				</li>
+				<button class="zcbtn"><a href="zhuce.html">注册</a></button>
+			</ul>
+			
+		</div>
+		<script type="text/javascript">
+			$(".guanbi1").click(function(){
+				$(".numint").val("");
+ 
+			})
+			$(".guanbi2").click(function(){
+				$(".pwdint").val("");
+ 
+			})
+			var time=60;
+			function tim(){
+				
+                time--;
+                if (time===0) {
+                	  
+                	  $(".btn").html("重新发送");
+                	 
+                } else{
+                	   $(".btn").html(time);
+                }
+             
+                
+               
+			}
+			$(".btn").click(function(){
+				
+			 setInterval("tim()",1000)
+			
+			})
+			$(".yj").click(function(){
+				if ($(".pwdint").attr("type")=="password") {
+					$(".pwdint").attr("type","text")
+				} else{
+					$(".pwdint").attr("type","password")
+				}
+				
+			})
+				
+			
+			
+		</script>
+	</body>
+</html>

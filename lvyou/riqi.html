@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/riqi.css"/>
+		<script src="js/zepto.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/remstyle(1).js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="header">
+			<ul>
+				<li><a href="lvxq.html"><img src="img/easyicon.png"align="absmiddle"/></a></li>
+				<li>选择日期和人数</li>
+				<li>起价说明</li>
+			</ul>
+		</div>
+		<div class="month">
+			<ul>
+				<li>
+					<span><img src="img/a2.png"align="absmiddle"/></span>
+					<span>2016</span>
+					<span><img src="img/a1.png"align="absmiddle"/></span>
+				</li>
+				<li>
+					<span><img src="img/a2.png"align="absmiddle"/></span>
+					<span>十二月</span>
+					<span><img src="img/a3.png"align="absmiddle"/></span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab_riqi">
+			<ul>
+				<li>日</li>
+				<li>一</li>
+				<li>二</li>
+				<li>三</li>
+				<li>四</li>
+				<li>五</li>
+				<li>六</li>
+			</ul>
+		</div>
+		<div class="img">
+			<img src="img/xian.png"width="100%"/>
+		</div>
+		<div class="tab_day">
+			<div class="a_day">
+				<ul>
+					<li style="color: #A9A9A9;">27</li>
+					<li style="color: #A9A9A9;">28</li>
+					<li style="color: #A9A9A9;">29</li>
+					<li style="color: #A9A9A9;">30</li>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+				</ul>
+			</div>
+			<div class="a_day">
+				<ul>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+				</ul>
+			</div>
+			<div class="a_day">
+				<ul>
+					<li>11</li>
+					<li>12</li>
+					<li>13</li>
+					<li>14</li>
+					<li>15</li>
+					<li>16</li>
+					<li>17</li>
+				</ul>
+			</div>
+			<div class="a_day">
+				<ul>
+					<li>18</li>
+					<li>19</li>
+					<li>20</li>
+					<li>21</li>
+					<li>22</li>
+					<li>23</li>
+					<li>24</li>
+				</ul>
+			</div>
+			<div class="a_day">
+				<ul>
+					<li>25</li>
+					<li>26</li>
+					<li>27</li>
+					<li>28</li>
+					<li>29</li>
+					<li>30</li>
+					<li>31</li>
+				</ul>
+			</div>
+		</div>
+		<div class="a_img">
+			<img src="img/c2.png"width="100%"/>
+		</div>
+		<div class="chengren">
+			<ul>
+				<li><em><a>成人</a><a>￥<span>3159</span>/人</a></em>
+					<span>
+					<button onclick="btn()">+</button>
+					<input type="text" value="0"/>
+					<button onclick="jian()">-</button>
+					</span>
+					<span></span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab_xian">
+			<img src="img/c1.png"width="100%"/>
+		</div>
+		<div class="chengren">
+			<ul>
+				<li><em><a>儿童</a><a>￥<span>3159</span>/人</a></em>
+					<span>
+					<button onclick="btn()">+</button>
+					<input type="text" value="0"/>
+					<button onclick="jian()">-</button>
+					</span>
+					<span></span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab_xian">
+			<img src="img/c1.png"width="100%"/>
+		</div>
+		<div class="youer">
+			<ul>
+				<li><span><img src="img/a5.png" align="absmiddle"width="5%"/></span>
+					<span>携带幼儿</span>
+					<span>0~2岁</span>
+				</li>
+			</ul>
+		</div>
+		<div class="tab_xian">
+			<img src="img/c1.png"width="100%"/>
+		</div>
+		<div class="one-last">
+			<ul>
+				<li><span><img src="img/a4.png"align="absmiddle"width="3%"/></span>
+					<span>最少1人起订，
+					年龄2—12周岁，
+					不占床，不含早，
+					只含当地的正餐半餐、
+					车位以及导服，其他需要自理。
+					成人+儿童最多支持9人</span>
+					<span>*以上价格均为起价</span></li>
+			</ul>
+		</div>
+		<div class="a_last">
+			<img src="img/c2.png"width="100%"/>
+		</div>
+		<div class="b_last">
+			<ul>
+				<li>
+					<span>总额:￥</span>
+					<span>0</span>
+					<span>明细></span>
+				</li>
+				<li><a href="ziyuan.html"><button><span style="font-size:1.2rem ;">下一步</span>&nbsp;<span style="font-size:0.8rem ;">选择资源</span></button></a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+				var inp=document.getElementsByTagName("input")[0];
+				var danjia=document.getElementsByTagName("span")[6];
+				var xiaoji=document.getElementsByTagName("span")[17];
+//				span.innerHTML=单价*数量
+//				xiaoji=danjia*inp
+                
+				function btn(){
+					inp.value=Number(inp.value)+1;
+					xiaoji.innerHTML=danjia.innerHTML*Number(inp.value);
+				}
+				function jian(){
+					if(inp.value>0){
+						inp.value=Number(inp.value)-1;
+					}else if(inp.value<=0){
+						alert("不能再减了")
+					}
+					xiaoji.innerHTML=danjia.innerHTML*Number(inp.value);
+				}
+//				$("button").tap(function(){
+//					window.open("../555555/index.html","_self");
+//				});
+//				$(".header>ul>li").eq(0).tap(function(){
+//					window.open("../onemai/onemai.html","_self");
+//				})
+			</script>
+		</div>
+	</body>
+</html>

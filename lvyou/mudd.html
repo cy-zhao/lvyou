@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/mudd.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foter.css"/>
+		<script src="js/zepto.js"></script>
+		<script src="js/remstyle.js"></script>
+	</head>
+	<body>
+		<div class="head">
+			<div class="head-a">
+				<li><</li>
+				<li>选择目的地</li>
+			</div>
+			<div class="head-b">
+				<img src="img/galss_03.png"/>
+				<input type="text"  placeholder="春季旅游节"/>
+			</div>
+		</div>
+		<div class="nr">
+			<div class="nr-lt">
+				<li class="aa"><img src="img/icon/luggage_01.png"/><p>热门</p></li>
+				<li><img src="img/icon/luggage_02.png"/><p>国内</p></li>
+				<li><img src="img/icon/luggage_02.png"/><p>国外</p></li>
+			</div>
+			<div class="nr-rt">
+				<li><img src="img/img/history-lis0421_12.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/guonei0407_05.jpg"/>云南</li>
+				<li><img src="img/img/history-lis0421_12.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/guonei0407_05.jpg"/>云南</li>
+				<li><img src="img/img/history-lis0421_12.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/guonei0407_05.jpg"/>云南</li>
+				<li><img src="img/img/history-lis0421_12.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/guonei0407_05.jpg"/>云南</li>
+			</div>
+			<div class="nr-rt">
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+			</div>
+			<div class="nr-rt">
+				<li><img src="img/img/guonei0407_09.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+				<li><img src="img/img/guonei0407_14.jpg"/>上海迪士尼</li>
+				<li class="bb"><img src="img/img/item-img0329_04.jpg"/>云南</li>
+			</div>
+		</div>
+		<div class="foter">
+			<ul>
+				<a href="index.html"><li class=""><img src="img/icon/footer_0322_05.png"/><br />首页</li></a>
+				<a href="mudd.html"><li class="active"><img src="img/icon/footer_0322_02.png"/><br />目的地</li></a>
+				<a href="liulan.html"><li class=""><img src="img/icon/footer_0322_07.png"/><br />浏览历史</li></a>
+				<a href="gr.html"><li class=""><img src="img/icon/footer_0322_08.png"/><br />个人</li></a>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$(".nr-rt").hide();
+			$(".nr-rt").eq(0).show();
+			$(".nr-lt li").tap(function  () {
+				$(this).addClass("aa");
+				$(this).siblings().removeClass("aa");
+				i=$(this).index();
+				$(".nr-lt img").attr("src","img/icon/luggage_02.png");
+				$(".nr-lt img").eq(i).attr("src","img/icon/luggage_01.png");
+				$(".nr-rt").hide();
+				$(".nr-rt").eq(i).show();
+			})
+		</script>
+	</body>
+</html>

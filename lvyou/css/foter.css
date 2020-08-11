@@ -1,0 +1,27 @@
+.foter{
+				height: 1rem;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				background-color: #ededed;
+			}
+			.foter ul{
+				display: flex;
+				justify-content: space-around;
+			}
+			.foter li{
+				margin-top: 0.1rem;
+				text-align: center;
+				font-size: 0.24rem;
+			}
+			.foter img{
+				width: 0.56rem;
+				height: 0.5rem;
+			}
+			.foter a{
+				text-decoration: none;
+				color: black;
+			}
+			.active{
+				color: #1448ae;
+			}

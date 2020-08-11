@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.header ul{
+	display: flex;
+	background-color: #1448ae;
+	justify-content: space-around;
+	height: 4rem;
+	line-height: 4rem;
+}
+.header ul li img{
+	width:1rem;
+}
+.header ul li:nth-child(2){
+	color: white;
+	font-size: 1.44rem;
+	padding-left: 3rem;
+	
+}
+.header ul li:nth-child(3){
+	color: white;
+	font-size: 0.8rem;
+	
+}
+.month ul{
+			width: 94%;
+	padding-top: 2rem;
+	display: flex;
+	justify-content: space-around;
+}
+.month ul li span{
+	margin-left: 2rem;
+}
+.month ul li img{
+	width: 0.8rem;
+}
+.month ul li span:nth-child(2){
+	font-size: 1.3rem;
+}
+.tab_riqi ul{
+	color: #1AB2DB;
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	display: flex;
+	justify-content: space-around;
+}
+.tab_day{
+	
+	border:px solid blueviolet ;
+}
+.a_day ul{margin-top: 1.2rem;
+	display: flex;
+	justify-content: space-around;
+}
+.a_day ul li{
+	border:px solid red;
+	width: 2.2rem;
+	height: 2.2rem;
+	line-height: 2.2rem;
+	text-align: center;
+}
+.a_img img{
+	height: 0.8rem;
+}
+.chengren ul{margin-top: 2rem;
+	padding-left: 2rem;
+}
+.chengren ul li span:nth-child(1){
+	color: orange;
+}
+.chengren ul li button{
+	border: 1px solid #ccc;	
+	background-color: white;
+	width: 2rem;
+	height: 2rem;
+	outline: none;
+}
+.chengren ul li input{
+	width: 2rem;
+	height: 2rem;
+	background-color: #CCCCCC;
+	text-align: center;
+	border: 0;
+	
+}
+.chengren ul li{
+	display: flex;
+	justify-content: space-between;
+}
+.chengren ul li span:nth-child(2){
+	margin-left: 10rem;
+}
+.chengren em{
+	font-style: normal;
+}
+.chengren em a:nth-child(1){
+	font-size: 1.2rem;
+	color: #666666;
+}
+.chengren em a:nth-child(2){
+	font-size: 1.08rem;
+	color: #F88412;
+	margin-left: 1rem;
+}
+.ertong ul{
+	margin-top: 2rem;
+	padding-left: 2rem;
+}
+.ertong ul li button{
+	
+	background-color: white;
+	width: 2rem;
+	height: 2rem;	
+}
+.ertong ul li input{width: 2rem;
+height: 1.7rem;
+background-color: #CCCCCC;
+text-align: center;
+	
+}
+.ertong ul li span:nth-child(1){
+	margin-left: 14.8rem;
+	border:1px solid #CCCCCC;
+}
+.youer{
+	margin-top: 2rem;
+}
+.youer span{
+	margin-left: 1.6rem ;
+}
+.youer span:nth-child(3){
+	color: #BFBFBF;
+}
+.one-last{
+	padding-top:1rem;width: 90%;
+margin-left: 1.6rem;
+font-size:0.8rem ;
+	
+}
+.one-last ul li span:nth-child(3){
+	color: orange;
+}
+.a_last img{
+padding-top:1rem;
+}
+.b_last ul{
+	height: 3rem;
+	line-height: 3rem;
+	justify-content: space-between;
+	display: flex;
+}
+.b_last ul li:nth-child(1){margin-left: 2rem;
+	color: orange;
+	margin-left: 1rem;
+}
+.b_last ul li span:nth-child(1){
+	font-size: 1.4rem;
+}
+.b_last ul li span:nth-child(2){
+	font-size: 1.4rem;
+}
+.b_last button{
+	height: 3rem;
+	width: 12rem;
+	border:1px solid orange ;
+	background-color: orange;
+	color: white;
+}

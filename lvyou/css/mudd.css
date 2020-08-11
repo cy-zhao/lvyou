@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.nr{
+	margin-bottom: 1rem;
+}
+.head{
+	height: 1.74rem;
+	width: 7.5rem;
+	background-color: #1448ae;
+}
+.head-a{
+	margin: 0 auto;
+	line-height: 0.88rem;
+	width: 6.8rem;
+	height: 0.88rem;
+	display: flex;
+	color: white;
+	font-size: 0.32rem;
+}
+.head-a li:nth-child(2){
+	margin-left: 2.3rem;
+}
+.head-b{
+	position: relative;
+}
+.head-b input{
+	outline:none;
+	padding-left: 0.6rem;
+	background-color: #1448AE;
+	border: 0.01rem solid #8aa4d7;
+	border-radius: 0.5rem;
+	margin-left: 0.35rem;
+	width: 6.2rem;
+	height: 0.52rem;
+	font-size: 0.28rem;
+	margin-top: 0.16rem;
+}
+.head-b img{
+	width: :;rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 0.5rem;
+	top: 0.28rem;
+}
+.nr{
+	display: flex;
+}
+.nr-lt{
+	width: 1.3rem;
+}
+.nr-lt li{
+	text-align: center;
+	width: 1.3rem;
+	height: 1.8rem;
+	background-color: #f4f4f4;
+	font-size: 0.32rem;
+}
+.nr-lt img{
+	margin-top: 0.44rem;
+}
+.aa{
+	background-color: white !important;
+	color: #1448ae;
+	border-left: 0.03rem solid #f7c612;
+}
+.nr-rt{
+	display: flex;
+	flex-wrap: wrap;
+}
+.nr-rt img{
+	width:100% ;
+	height: 2.1rem;
+}
+.nr-rt li{
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+	width: 2.86rem;
+	height: 2.64rem;
+	border: 0.01rem solid #cccccc;
+	text-align: center;
+	font-size: 0.28rem;
+}
+.bb{
+	margin-left: 0.1rem !important;
+}
+

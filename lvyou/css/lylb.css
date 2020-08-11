@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	padding-bottom: 1.5rem;
+}
+.header{
+	background-color: #1448ae;
+	height: 1rem;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.header a{
+	color: white;
+}
+.header ul{
+	display: flex;
+}
+.header li{
+	height: 0.6rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.header li:nth-child(1){
+	font-size: 0.34rem;
+	margin-left: 0.4rem;
+}
+.head-a{
+	margin-left: 0.2rem;
+	width: 6.2rem;
+	border: 0.01rem solid #8aa4d7;
+	border-radius: 0.5rem;
+	font-size: 0.28rem;
+	position: relative;
+}
+.head-a input{
+	padding-left: 0.7rem;
+	width:3.3rem;
+	height: 0.6rem;
+	border: none;
+	background-color: #1448ae;
+	border-left:0.01rem solid #8aa4d7;
+	font-size: 0.28rem;
+	outline: none;
+}
+.head-a a{
+	margin-left: 0.6rem;
+	margin-right: 0.3rem;
+}
+.head-a img{
+	position: absolute;
+	top: 0.1rem;
+	left: 1.7rem;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.head-a img:nth-child(1){
+	top: 0.1rem;
+	left: 0.2rem;
+	height: 0.34rem;
+	width: 0.3rem;
+}
+.xxk{
+	display: flex;
+	justify-content:  space-around;
+}
+.xxk li{
+	flex: auto;
+	text-align: center;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	box-sizing: border-box;
+	font-size: 0.28rem;
+	
+}
+.activeto{
+	color: #1448ae;
+    background-color: #fff;
+  	border-top: 0.08rem solid #f7c612;
+}
+.nnn{
+	height: 2.4rem;
+	width: 7.5rem;
+}
+.anr{
+	display: inline-block;
+	height: 2.4rem;
+	width: 7rem;
+	margin-left: 0.25rem;
+	display: flex;
+	border-bottom: 0.01rem solid #cccccc;
+}
+.anr div{
+	margin-top: 0.3rem;
+}
+.anr-lf{
+	width: 2rem;
+	height: 1.74rem;
+}
+.anr-lf img{
+	width: 100%;
+}
+.anr-rt{
+	margin-left: 0.14rem;
+	width: 4.9rem;
+	height: 1.74rem;
+}
+.anr-rt p:nth-child(1){
+	font-size: 0.28rem;
+}
+.anr button{
+	background-color: white;
+	border: 0.01rem solid black;
+	margin-left: 0.1rem;
+	font-size: 0.21rem;
+}
+.anr button:nth-child(1){
+	margin-left: 0;
+}
+.anr button:nth-child(3){
+	color: white;
+	background-color: #48c1e2;
+	border: none;
+}
+.anr-rt p:nth-child(3){
+	font-size: 0.24rem;
+}
+.anr-rt p:nth-child(3) span{
+	color: #00cc66 !important;
+}
+.anr-rt p:nth-child(4){
+	font-size: 0.24rem;
+}
+.out{
+	font-size: 0.24rem;
+}
+.out span{
+	font-size: 0.34rem;
+	color: orange;
+}
+.anr{
+	text-decoration: none;
+	color: black;
+}
+.content{
+	margin-top: 1rem;
+}

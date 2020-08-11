@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+.box-two{
+	width: 100%;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+.header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.quan{
+	width: 100%;
+	height: 4.4rem;
+	background-color: #1448AE;
+	display: flex;
+	justify-content: flex-start;
+}
+.top-one{
+	width: 55%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 4.4rem;
+}
+.top-one img{
+	width: 2rem;
+	height: 2.2rem;
+	margin-top: 1.2rem;
+	margin-left: 1.2rem;
+}
+.top-two{
+	line-height: 4.6rem;
+	margin-left: 11rem;
+}
+.one-k{
+	font-size: 1.8rem;
+	color: white;
+}
+.two-k{
+	font-size: 1.6rem;
+	color: white;
+}
+.jin{
+	width: 100%;
+}
+.zuo{
+	width: 100%;
+	/*margin-top: 1rem;*/
+	margin-top: 2rem;
+}
+.qian{
+	width: 100%;
+	/*margin-top: 1rem;*/			
+	margin-top: 2rem;
+	/*margin-bottom: 8rem;*/
+}
+.yun{
+	width: 92%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 1rem;
+}
+.tian{
+	font-size: 1.5rem;
+	margin-left: 1.2rem;
+}
+.nan{
+	width: 32rem;
+	height: 8rem;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 1rem;
+	border-radius: 1rem;
+}
+.nan p{
+	width: 22rem;
+	font-size: 1.4rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+	color: #666666;
+}
+.nan img{
+	width: 6.8rem;
+	height: 5.4rem;
+	/*margin-left: 1rem;*/
+	margin-top: 1rem;
+}
+.nan span{
+	color: #f88515;
+}
+.foter{
+				height: 5rem;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				background-color: #ededed;
+			}
+			.foter ul{
+				display: flex;
+				justify-content: space-around;
+			}
+			.foter li{
+				margin-top: 0.5rem;
+				text-align: center;
+				font-size: 1.2rem;
+			}
+			.foter img{
+				width: 2.8rem;
+				height: 2.5rem;
+			}
+			.foter a{
+				text-decoration: none;
+				color: black;
+			}

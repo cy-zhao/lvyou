@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/dl.css"/>
+		<script src="js/zepto.js"></script>
+		<script src="js/remstyle.js"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="header">
+			<li><a href="index.html"><</a></li>
+			<li>登录</li>
+			<li><a href="zhuce.html">注册</a></li>
+		</div>
+		<div class="content">
+				<ul class="nr">
+					<span>
+						<li>登录名</li>
+						<input type="text" placeholder="手机号码/用户名/邮箱"/>
+						<li class="qc">x</li>
+					</span>
+					<p></p>
+					<span>
+						<li>密码 &nbsp; &nbsp; </li>
+						<input type="password" placeholder="登录密码"/>
+						<li class="xs"><img src="img/yanjing.png"/></li>
+					</span>
+					<p></p>
+					<a href="index.html"><button>登录</button></a>
+					<div class="zs">
+						<li>登录遇到问题？</li>
+						<li>境外手机登录</li>
+					</div>
+				</ul>
+		</div>
+		<div class="fot">
+			<img src="img/01dl_03.png"/>
+		</div>
+		<script type="text/javascript">
+			$(".qc").tap(function  () {
+				$("input").eq(0).val("");
+			})
+			$(".xs").tap(function  () {
+				if ($("input").eq(1).attr("type")=="password") {
+					$("input").eq(1).attr("type","text");
+				} else{
+					$("input").eq(1).attr("type","password");
+				}
+			})
+		</script>
+	</body>
+</html>

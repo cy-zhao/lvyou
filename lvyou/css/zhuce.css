@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.topbox{
+	margin: 3% 0 ;
+	width: 100%;
+}
+.topbox-con{
+	align-items: center;
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+}
+.topbox-con a{
+	width: 10%;
+	font-size: 0.3rem;
+}
+.topbox-con p{
+	margin-left: 35%;
+	font-size: 0.3rem;
+}
+.zcbox{
+	margin-top: 10%;
+	width: 100%;
+}
+.zcbox ul{
+	width: 95%;
+	margin: 0 auto;
+}
+.zcbox ul li{
+	padding: 0.2rem 0;
+	border-bottom: 1px solid grey;
+}
+.contry{
+	margin-right: 5%;
+	font-size: 0.3rem;
+}
+.num,.yzm{
+	font-size: 0.3rem;
+	margin-right: 11%;
+}
+.numint{
+	border: 1px solid white;
+	color: grey;
+	font-size: 0.3rem;
+	height: 0.4rem;
+	width: 65%;
+}
+.numint:focus{
+	outline: white;
+}
+.yzmint:focus{
+	outline: white;
+}
+.guanbi1,.guanbi2{
+	
+	width: 5%;
+}
+.yzmint{
+	border: 1px solid white;
+	color: grey;
+	font-size: 0.3rem;
+	height: 0.4rem;
+	width: 50%;
+}
+.btn{
+	width: 22%;
+	padding: 0.12rem 0;
+	font-size: 0.2rem;
+	background-color: gray;
+	color: white;
+	border: 1px solid white;
+	border-radius:0.1rem ;
+}
+.pwdint{
+	border: 1px solid white;
+	color: grey;
+	font-size: 0.3rem;
+	height: 0.4rem;
+	width: 60%;
+}
+.pwdint:focus{
+	outline: white;
+}
+.pwd{
+	font-size: 0.3rem;
+	margin-right: 7%;
+}
+.yj{
+	width: 7%;
+	
+}
+.zcbtn{
+	margin-top: 15%;
+	width: 100%;
+	color: white;
+	background-color: orange;
+	border: 1px solid orange;
+	padding: 0.1rem 0;
+}
+.zcbtn a{
+	font-size: 0.28rem;
+	color: white;
+}

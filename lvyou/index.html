@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/foter.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/remstyle.js"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div id="">
+				<img src="img/galss_03.png"/>
+			<input type="text" placeholder="搜索旅行地/酒店/景点"/>
+			</div>
+		</div>
+		<div class="lb">
+	  		<ul>
+	  			<li><img src="img/img/banner1.jpg"/></li>
+	  			<li><img src="img/img/banner2.jpg"/></li>
+	  			<li><img src="img/img/banner3.jpg"/></li>
+	  			<li><img src="img/img/banner4.jpg"/></li>
+	  		</ul>
+	  		<div class="prev">
+	  			<
+	  		</div>
+	  		<div class="next">
+	  			>
+	  		</div>
+		</div>
+		<script type="text/javascript">
+			lils=$(".lb li").length;
+			for (i=0;i<lils;i++) {
+				$(".lb li").eq(i).css("left",7.5*i+"rem");
+			}
+			$(".prev").click(function  () {
+				if (!$(".lb li").is(":animated")) {
+					$(".lb ul").prepend($(".lb li:last-child"));
+					$(".lb li:first-child").css("left",-7.5+"rem");
+					$(".lb li").animate({
+						left: '+=7.5'+"rem"
+					},1000);
+				}
+			})
+			$(".next").click(function  () {
+				if (!$(".lb li").is(":animated")) {
+					$(".lb li:last-child").css("left",22.5+"rem");
+					$(".lb li").animate({
+						left: '-=7.5'+"rem"
+					},1000);
+					$(".lb ul").append($(".lb li:first-child"));
+				}
+			})
+			setInterval(function  () {
+					if (!$(".lb li").is(":animated")) {
+					$(".lb li:last-child").css("left",22.5+"rem");
+					$(".lb li").animate({
+						left: '-=7.5'+"rem"
+					},1000);
+					$(".lb ul").append($(".lb li:first-child"));
+				}
+			},2000)
+		</script>
+		<div class="content">
+			<div class="row">
+				<div class="ct-left">
+					<a href="lysy.html"><img src="img/03-sy_04.png"/></a>
+				</div>
+				<div class="ct-right">
+					<div class="ct-tp">
+						<img src="img/03-sy_06.png"/>
+					    <img src="img/03-sy_12.png"/>
+					</div>
+					<div class="ct-ft">
+						<img src="img/03-sy_08.png"/>
+					    <img src="img/03-sy_13.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="ct-left">
+					<img src="img/03-sy_17.png"/>
+				</div>
+				<div class="ct-right">
+					<div class="ct-tp">
+					    <img src="img/03-sy_18.png"/>
+					    <img src="img/03-sy_22.png"/>
+					</div>
+					<div class="ct-ft">
+						<img src="img/03-sy_19.png"/>
+					    <img src="img/03-sy_23.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="ct-left">
+					<img src="img/03-sy_27.png"/>
+				</div>
+				<div class="ct-right">
+					<div class="ct-tp">
+						<img src="img/03-sy_28.png"/>
+					    <img src="img/03-sy_33.png"/>
+					</div>
+					<div class="ct-ft">
+						<img src="img/03-sy_29.png"/>
+					    <img src="img/03-sy_34.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="row-img">
+				<img src="img/03-sy_38.png"/>
+			</div>
+			<div class="content-db">
+				<p><img src="img/03-sy_41.png"/></p>
+				<div class="tmh">
+					<div class="aa">
+						<a href="lylb.html"><img src="img/03-sy_45.png"/></a>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥1999<a>起</a></p>
+						</div>
+					</div>
+					<div class="aa">
+						<img src="img/03-sy_47.png"/>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥2989<a>起</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="tmh">
+					<div class="aa">
+						<img src="img/03-sy_51.png"/>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥1699<a>起</a></p>
+						</div>
+					</div>
+					<div class="aa">
+						<img src="img/03-sy_53.png"/>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥3099<a>起</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="tmh">
+					<div class="aa">
+						<img src="img/03-sy_56.png"/>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥1888<a>起</a></p>
+						</div>
+					</div>
+					<div class="aa">
+						<img src="img/03-sy_57.png"/>
+						<p>台湾环岛8日7晚跟团游。甩尾狂甩3人行1人免单...</p><br />
+						<div id="aa">
+							<p>席位充足</p>
+							<p>¥2689<a>起</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="foter">
+			<ul>
+				<a href="index.html"><li class="active"><img src="img/icon/footer_0322_01.png"/><br />首页</li></a>
+				<a href="mudd.html"><li class=""><img src="img/icon/footer_0322_06.png"/><br />目的地</li></a>
+				<a href="liulan.html"><li class=""><img src="img/icon/footer_0322_07.png"/><br />浏览历史</li></a>
+				<a href="gr.html"><li class=""><img src="img/icon/footer_0322_08.png"/><br />个人</li></a>
+			</ul>
+		</div>
+	</body>
+</html>
